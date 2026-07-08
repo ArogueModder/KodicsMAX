@@ -169,7 +169,6 @@ See [LICENSE](./LICENSE) for full details.
 ## 👏 Acknowledgments
 
 - **typewriterMonkey** — Original creator and vision
-- **ArogueModder** — Enhancements and improvements
 - **Kodi Team** — Excellent addon framework
 - **Community Contributors** — Bug reports, suggestions, and support
 
