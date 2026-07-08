@@ -1,0 +1,21 @@
+Kodics - Comic Reader for Kodi
+Copyright © typewriterMonkey
+improved by ArogueModder
+
+Licensed under the GNU General Public License v3.0
+See https://www.gnu.org/licenses/gpl-3.0.html
+
+---
+
+This add-on includes rarfile (Python module):
+Copyright © 2005-2024 Markus Näsman, et al.
+Licensed under the ISC License: https://opensource.org/licenses/ISC
+
+This add-on may bundle or use the unrar utility:
+Copyright © 1993-2024 Alexander L. Roshal
+Distributed under the RarLab freeware license.
+See https://www.rarlab.com/rar_add.htm
+
+The unrar utility is provided as-is and may require separate installation
+on some systems. See documentation for platform-specific requirements.
+

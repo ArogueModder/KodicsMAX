@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.image.kodicsMAX" name="KodicsMAX" version="0.2.0" provider-name="typewriterMonkey, ArogueModder">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" provides="image"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Comic reader for Kodi. Displays images fitting the width while maintaining aspect ratio, with panning controls, options and more.</summary>
+        <description>KodicsMax is an addon for Kodi originally created by typewriterMonkey, made better by ArogueModder.  It includes native support for .CBR and .CBZ file formats, options for scrolling, stability improvements, and more.</description>
+        <platform>all</platform>
+        <license>GPL v3</license>
+        <source>https://github.com/ArogueModder/KodicsMAX</source>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
