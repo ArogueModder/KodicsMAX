@@ -8,7 +8,7 @@
 
 A powerful Kodi addon for reading comic books with native support for .CBR and .CBZ file formats.
 
-[Features](#features) • [Installation](#installation) • [Updating](#updating) • [Usage](#usage) • [Issues](https://github.com/ArogueModder/KodicsMAX/issues) • [Contributing](#contributing)
+[Features](#features) • [Installation](#installation) • [Updating](#updating) • [Usage](#usage) • [Issues](https://github.com/ArogueModder/KodicsMAX/issues) 
 
 </div>
 
