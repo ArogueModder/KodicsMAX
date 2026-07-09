@@ -57,7 +57,6 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
    |----------|------|
    | **macOS** | `~/Library/Application Support/Kodi/addons/` |
    | **Linux** | `~/.kodi/addons/` |
-   | **Android** | `/storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/` |
    | **Raspberry Pi** | `~/.kodi/addons/` |
 
 4. Restart Kodi
@@ -107,6 +106,8 @@ To update KodicsMAX to a newer version:
 
 When you adjust settings, they will take effect after you select **Close Menu**. For more details, visit our [Wiki](https://github.com/ArogueModder/KodicsMAX/wiki).
 
+Android not currently supported.
+
 ---
 
 ## 💻 System Requirements
@@ -130,15 +131,6 @@ When you adjust settings, they will take effect after you select **Close Menu**.
 </details>
 
 **[View Full Changelog →](./CHANGELOG.md)**
-
----
-
-
-### Guidelines
-- Follow GPL v3.0 license requirements
-- Write clear commit messages
-- Test your changes in Kodi before submitting
-- Include documentation for new features
 
 ---
 
