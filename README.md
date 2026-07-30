@@ -1,3 +1,4 @@
+![KodicsMAX logo](smalliconkodicsmax.png)
 # KodicsMAX
 
 <div align="center">
