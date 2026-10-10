@@ -178,13 +178,13 @@ To update KodicsMAX to a newer version:
 <details open>
 <summary><b>Version 0.3.0</b> (Latest)</summary>
 
--Added Library, Home, and Settings screens
--Thumbnail Support for Covers
--Auto-page saving with in-progress and complete badges for Library
--Added Library themes with ability to make, add and distribute custom themes
--Improved reader stability and compatibility
--Removed extraction of the entire comic before reading and implemented a rolling cache
--Basic Android Support ( no compressed CBRs, no mouse/touchscreen support)
+- Added Library, Home, and Settings screens
+- Thumbnail Support for Covers
+- Auto-page saving with in-progress and complete badges for Library
+- Added Library themes with ability to make, add and distribute custom themes
+- Improved reader stability and compatibility
+- Removed extraction of the entire comic before reading and implemented a rolling cache
+- Basic Android Support ( no compressed CBRs, no mouse/touchscreen support)
 
 </details>
 
