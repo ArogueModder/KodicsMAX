@@ -1,3 +1,5 @@
+<div align="center">
+
 ![KodicsMAX logo](smalliconkodicsmax.png)
 # KodicsMAX
 
@@ -14,6 +16,8 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
 </div>
 
 ---
+
+<div align="left">
 
 ## About
 
@@ -42,7 +46,11 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
 
 ---
 
+<div align="center">
+
 ![LibraryWindow](Screen2.png)
+
+<div align="left">
 
 ## Installation
 
@@ -158,7 +166,11 @@ To update KodicsMAX to a newer version:
 - Close Menu - Closes Menu
 - Close Content - Closes the reader
 
+<div align="center">
+
 ![ReaderSettings](Screen3.png)
+
+<div align="left">
 
 ## Themes
 - You can select a theme from the library settings window
