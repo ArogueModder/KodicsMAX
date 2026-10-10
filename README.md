@@ -95,11 +95,12 @@ To update KodicsMAX to a newer version:
 ## Usage
 
 1. Open **KodicsMAX** from your Add-ons menu
-2. Navigate to your comic library root folder and select it
-3. Go back to the home screen and select library
-4. Browse your library and select a comic
-5. Once reader opens, press select again to access the reader menu
-6. Use these controls to navigate:
+2. Navigate to settings from the home window
+3. Select library base directory and select your comic library root folder
+4. Go back to the home screen and select library
+5. Browse your library and select a comic
+6. Once reader opens, press select again to access the reader menu
+7. Use these controls to navigate:
 
 ## Reader Controls
 
