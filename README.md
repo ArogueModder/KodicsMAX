@@ -9,7 +9,7 @@
 
 A powerful Kodi addon for reading comic books with native support for .CBR and .CBZ file formats.
 
-[Features](#features) • [Installation](#installation) • [Updating](#updating) • [Usage](#usage) • [Issues](https://github.com/ArogueModder/KodicsMAX/issues) 
+[Features](#features) • [Installation](#Installation) • [Updating](#Updating) • [Usage](#Usage) • [Issues](https://github.com/ArogueModder/KodicsMAX/issues) 
 
 </div>
 
@@ -28,14 +28,17 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📖 **Native .CBR & .CBZ Support** — Read comic books directly in their native formats
-- 🔍 **Zoom Function** — Adjust zoom levels for detailed comic panel viewing
-- 📜 **Customizable Scrolling** — Adjust reading speed and scroll behavior to your preference
-- ⚡ **Stability Improvements** — Performance optimizations and bug fixes
-- 🎨 **Clean Interface** — Intuitive, user-friendly design
-- 🔄 **Optimized Performance** — Fast loading and smooth navigation
+-  **Native .CBR & .CBZ Support** 
+-  **Library with thumbnails of covers**
+-  **Auto-page saving with badges for in-progress and complete reads**
+-  **Library Theme system with the ability to create and distribute your own themes**
+-  **Rolling cache for pages so your comics load quick**
+-  **Stability and Compatibly improvements for a smooth and polished experience**   
+-  **Custom zoom levels for detailed comic panel viewing**
+-  **Customize reading speed and scroll behavior to your preference**
+-  **Intuitive, user-friendly design**
 
 ---
 
@@ -82,8 +85,13 @@ To update KodicsMAX to a newer version:
 ## 🎮 Usage
 
 1. Open **KodicsMAX** from your Add-ons menu
-2. Browse and select a comic file (`.cbr` or `.cbz`)
-3. Use these controls to navigate:
+2. Navigate to your comic library root folder and select it
+3. Go back to the home screen and select library
+4. Browse your library and select a comic
+5. Once reader opens, press select again to access the reader menu
+6. Use these controls to navigate:
+
+## Reader Controls
 
 ### Keyboard Controls
 
@@ -103,31 +111,80 @@ To update KodicsMAX to a newer version:
 | Open Settings | Select Button |
 | Return to Library | Back Button |
 
-### Settings
+## Library Controls
 
-When you adjust settings, they will take effect after you select **Close Menu**. For more details, visit our [Wiki](https://github.com/ArogueModder/KodicsMAX/wiki).
+### Keyboard Controls
 
-Android not currently supported.
+| Action | Control |
+|--------|---------|
+| Navigate to Next Page | Right Arrow (→) |
+| Navigate to Previous Page | Left Arrow (←) |
+| Open Settings | Enter |
+| Return to Library | Back / Escape |
 
----
+### Remote Control
+
+| Action | Control |
+|--------|---------|
+| Navigate to Next Comic | Right Arrow |
+| Navigate to Previous Comic | Left Arrow |
+| Navigate to Above Comic | Up Arrow |
+| Navigate to Below Comic | Down Arrow |
+| Open Comic | Select Button |
+| Return to Library | Back Button |
+
+## Main Menu Options
+
+- Library - Browse your comic collection and select to launch the reader
+- Load Content - Use this to read a comic not in your library (flash drive or similar)
+- Settings - Go here to configure KodicsMAX library
+- Exit - Exit KodicsMAX
+
+## Settings
+
+### Library Settings
+- Set Library Directory - Sets the base directory for the library, use your comic collections root directory
+- Delete Thumbnails - Deletes cached thumbnails
+- Delete Read History - Deletes all read history, removing badges and bookmarks
+- Select Theme - Selects the current active theme (See Below)
+- Import Custom Theme - Imports a custom theme (See Below)
+
+### Reader Settings
+- Mute Audio - mutes the audio from kodi's navigation
+- Scroll Distance - Sets the scroll distance amount from each click
+- Zoom Level - Sets the zoom level of the comic
+- Close Menu - Closes Menu
+- Close Content - Closes the reader
+
+## Themes
+- You can select a theme from the library settings window
+- Currently there are four included themes
+- You can make and distribute your own custom themes
+- Download sample_theme folder from this github page and preserve naming convention and aspect ratio of the images
+- Select Custom Theme in the library settings window and navigate to the folder with the custom artwork
+- Then select the library theme button and select your custom theme
+- Themes may take a few seconds to load, especially on older or slower devices
 
 ## 💻 System Requirements
 
 - **Kodi 19** or later
 - Minimum 100 MB free storage
-- Supported Platforms: macOS, Linux, Android, Raspberry Pi
-
+- Supported Platforms: windows, macOS, Linux, Android, Raspberry Pi, and much more
+- Android (and likely ios and TVos) does not support compressed CBR files, mouse or touchscreen
 ---
 
 ## 📝 What's New
 
 <details open>
-<summary><b>Version 0.2.0</b> (Latest)</summary>
+<summary><b>Version 0.3.0</b> (Latest)</summary>
 
-- ✨ Enhanced scrolling customization options
-- ⚙️ Added settings menu for user preferences
-- 🐛 Fixed stability issues with comic files
-- ⚡ Improved performance and loading times
+-Added Library, Home, and Settings screens
+-Thumbnail Support for Covers
+-Auto-page saving with in-progress and complete badges for Library
+-Added Library themes with ability to make, add and distribute custom themes
+-Improved reader stability and compatibility
+-Removed extraction of the entire comic before reading and implemented a rolling cache
+-Basic Android Support ( no compressed CBRs, no mouse/touchscreen support)
 
 </details>
 
