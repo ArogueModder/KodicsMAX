@@ -42,6 +42,8 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
 
 ---
 
+![LibraryWindow](Screen2.png)
+
 ## Installation
 
 ### Option 1: From Zip File (Recommended)
@@ -155,6 +157,8 @@ To update KodicsMAX to a newer version:
 - Zoom Level - Sets the zoom level of the comic
 - Close Menu - Closes Menu
 - Close Content - Closes the reader
+
+![ReaderSettings](Screen3.png)
 
 ## Themes
 - You can select a theme from the library settings window
