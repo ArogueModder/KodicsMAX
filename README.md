@@ -42,7 +42,7 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Option 1: From Zip File (Recommended)
 
@@ -67,7 +67,7 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
 
 ---
 
-## 🔄 Updating
+## Updating
 
 To update KodicsMAX to a newer version:
 
@@ -82,7 +82,7 @@ To update KodicsMAX to a newer version:
 
 ---
 
-## 🎮 Usage
+## Usage
 
 1. Open **KodicsMAX** from your Add-ons menu
 2. Navigate to your comic library root folder and select it
@@ -165,7 +165,7 @@ To update KodicsMAX to a newer version:
 - Then select the library theme button and select your custom theme
 - Themes may take a few seconds to load, especially on older or slower devices
 
-## 💻 System Requirements
+## System Requirements
 
 - **Kodi 19** or later
 - Minimum 100 MB free storage
@@ -173,7 +173,7 @@ To update KodicsMAX to a newer version:
 - Android (and likely ios and TVos) does not support compressed CBR files, mouse or touchscreen
 ---
 
-## 📝 What's New
+## What's New
 
 <details open>
 <summary><b>Version 0.3.0</b> (Latest)</summary>
@@ -192,17 +192,17 @@ To update KodicsMAX to a newer version:
 
 ---
 
-## 🐛 Bug Reports & Feature Requests
+## Bug Reports & Feature Requests
 
 Found an issue? Have a great idea?
 
-- 📋 [Report a Bug](https://github.com/ArogueModder/KodicsMAX/issues/new?template=bug_report.md)
-- 💡 [Request a Feature](https://github.com/ArogueModder/KodicsMAX/issues/new?template=feature_request.md)
-- 💬 [Kodi Forum Discussion](https://forum.kodi.tv)
+-  [Report a Bug](https://github.com/ArogueModder/KodicsMAX/issues/new?template=bug_report.md)
+-  [Request a Feature](https://github.com/ArogueModder/KodicsMAX/issues/new?template=feature_request.md)
+-  [Kodi Forum Discussion](https://forum.kodi.tv)
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **GNU General Public License v3.0** (GPLv3).
 
@@ -216,7 +216,7 @@ See [LICENSE](./LICENSE) for full details.
 
 ---
 
-## 👏 Acknowledgments
+## Acknowledgments
 
 - **typewriterMonkey** — Original creator and vision
 - **Kodi Team** — Excellent addon framework
@@ -224,7 +224,7 @@ See [LICENSE](./LICENSE) for full details.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This addon is provided **as-is** without any warranty. Users assume all responsibility and risk for its use. The maintainers are not liable for any damages or issues arising from the use of this addon.
 
