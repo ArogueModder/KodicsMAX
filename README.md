@@ -155,11 +155,11 @@ To update KodicsMAX to a newer version:
 ## Settings
 
 ### Library Settings
-- Set Library Directory - Sets the base directory for the library, use your comic collections root directory
-- Delete Thumbnails - Deletes cached thumbnails
-- Delete Read History - Deletes all read history, removing badges and bookmarks
-- Select Theme - Selects the current active theme (See Below)
-- Import Custom Theme - Imports a custom theme (See Below)
+- Library Base Directory - Sets the base directory for the library, use your comic collections root directory
+- Thumbnail Cache - Deletes cached thumbnails
+- Read History - Deletes all read history, removing badges and bookmarks
+- Library Theme - Selects the current active theme (See Below)
+- Custom Themes - Imports a custom theme (See Below)
 
 ### Reader Settings
 - Mute Audio - mutes the audio from kodi's navigation
