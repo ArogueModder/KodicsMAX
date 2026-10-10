@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="13003">
+    <defaultcontrol>301</defaultcontrol>
+    <coordinates>
+        <system>1</system>
+    </coordinates>
+    <controls>
+        <!-- Background -->
+        <control type="image">
+            <id>307</id>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1920</width>
+            <height>1080</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/background3.png</texture>
+        </control>
+
+        <!-- Title image -->
+        <control type="image">
+            <id>308</id>
+            <posx>-240</posx>
+            <posy>20</posy>
+            <width>2400</width>
+            <height>180</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/settings.png</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+
+        <!-- Library Base Directory image -->
+        <control type="image">
+            <id>309</id>
+            <posx>681</posx>
+            <posy>170</posy>
+            <width>560</width>
+            <height>41</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/LBD.png</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+
+        <!-- Button 301: Library Base Directory -->
+        <control type="button">
+            <id>301</id>
+            <posx>401</posx>
+            <posy>221</posy>
+            <width>1120</width>
+            <height>98</height>
+            <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturefocus>
+            <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturenofocus>
+            <label>Not Set - Click to Choose</label>
+            <font>font16</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+            <animation effect="zoom" start="100,100" end="120,120" time="150" center="auto">Focus</animation>
+            <animation effect="zoom" start="120,120" end="100,100" time="150" center="auto">Unfocus</animation>
+            <onup>304</onup>
+            <ondown>302</ondown>
+        </control>
+
+        <!-- Thumbnail Cache image -->
+        <control type="image">
+            <id>310</id>
+            <posx>401</posx>
+            <posy>377</posy>
+            <width>560</width>
+            <height>41</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/TC.png</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+
+        <!-- Read History image -->
+        <control type="image">
+            <id>311</id>
+            <posx>961</posx>
+            <posy>377</posy>
+            <width>560</width>
+            <height>41</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/RH.png</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+
+        <!-- Button 302: Thumbnail Cache -->
+        <control type="button">
+            <id>302</id>
+            <posx>401</posx>
+            <posy>428</posy>
+            <width>560</width>
+            <height>98</height>
+            <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturefocus>
+            <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturenofocus>
+            <label>Clear Cache</label>
+            <font>font16</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+            <animation effect="zoom" start="100,100" end="120,120" time="150" center="auto">Focus</animation>
+            <animation effect="zoom" start="120,120" end="100,100" time="150" center="auto">Unfocus</animation>
+            <onup>301</onup>
+            <ondown>305</ondown>
+            <onleft>303</onleft>
+            <onright>303</onright>
+        </control>
+
+        <!-- Button 303: Read History -->
+        <control type="button">
+            <id>303</id>
+            <posx>961</posx>
+            <posy>428</posy>
+            <width>560</width>
+            <height>98</height>
+            <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturefocus>
+            <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturenofocus>
+            <label>Clear History</label>
+            <font>font16</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+            <animation effect="zoom" start="100,100" end="120,120" time="150" center="auto">Focus</animation>
+            <animation effect="zoom" start="120,120" end="100,100" time="150" center="auto">Unfocus</animation>
+            <onup>301</onup>
+            <ondown>306</ondown>
+            <onleft>302</onleft>
+            <onright>302</onright>
+        </control>
+
+        <!-- Theme button labels -->
+        <control type="image">
+            <posx>401</posx>
+            <posy>584</posy>
+            <width>560</width>
+            <height>41</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/LT.png</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+
+        <control type="image">
+            <posx>961</posx>
+            <posy>584</posy>
+            <width>560</width>
+            <height>41</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/CT.png</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+
+        <!-- Button 305: Choose and apply a theme -->
+        <control type="button">
+            <id>305</id>
+            <posx>401</posx>
+            <posy>635</posy>
+            <width>560</width>
+            <height>98</height>
+            <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturefocus>
+            <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturenofocus>
+            <label>Choose / Apply Theme</label>
+            <font>font16</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+            <animation effect="zoom" start="100,100" end="120,120" time="150" center="auto">Focus</animation>
+            <animation effect="zoom" start="120,120" end="100,100" time="150" center="auto">Unfocus</animation>
+            <onup>302</onup>
+            <ondown>304</ondown>
+            <onleft>306</onleft>
+            <onright>306</onright>
+        </control>
+
+        <!-- Button 306: Import a custom theme -->
+        <control type="button">
+            <id>306</id>
+            <posx>961</posx>
+            <posy>635</posy>
+            <width>560</width>
+            <height>98</height>
+            <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturefocus>
+            <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturenofocus>
+            <label>Import Custom Theme</label>
+            <font>font16</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+            <animation effect="zoom" start="100,100" end="120,120" time="150" center="auto">Focus</animation>
+            <animation effect="zoom" start="120,120" end="100,100" time="150" center="auto">Unfocus</animation>
+            <onup>303</onup>
+            <ondown>304</ondown>
+            <onleft>305</onleft>
+            <onright>305</onright>
+        </control>
+
+        <!-- Button 304: Back -->
+        <control type="button">
+            <id>304</id>
+            <posx>810</posx>
+            <posy>911</posy>
+            <width>300</width>
+            <height>98</height>
+            <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturefocus>
+            <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/metalButton.png</texturenofocus>
+            <label>Back</label>
+            <font>font16</font>
+            <textcolor>white</textcolor>
+            <focusedcolor>white</focusedcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+            <animation effect="zoom" start="100,100" end="120,120" time="150" center="auto">Focus</animation>
+            <animation effect="zoom" start="120,120" end="100,100" time="150" center="auto">Unfocus</animation>
+            <onup>305</onup>
+            <ondown>301</ondown>
+        </control>
+
+        <!-- Footer credit -->
+        <control type="label">
+            <posx>30</posx>
+            <posy>1030</posy>
+            <width>1860</width>
+            <height>40</height>
+            <align>left</align>
+            <aligny>center</aligny>
+            <font>font12</font>
+            <textcolor>white</textcolor>
+            <scroll>true</scroll>
+            <label>Created by ArogueModder, Version 0.3.0., https://github.com/ArogueModder/KodicsMAX/tree/main </label>
+        </control>
+    </controls>
+</window>
+

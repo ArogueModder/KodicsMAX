@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="13002">
+    <coordinates>
+        <system>1</system>
+    </coordinates>
+
+    <defaultcontrol>200</defaultcontrol>
+
+    <controls>
+        <!-- Background -->
+        <control type="image">
+            <id>401</id>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1920</width>
+            <height>1080</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/background3.png</texture>
+        </control>
+
+        <!-- Header image -->
+        <control type="image">
+            <id>402</id>
+            <posx>-50</posx>
+            <posy>0</posy>
+            <width>420</width>
+            <height>105</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/Library.png</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+
+        <!-- Comic Grid -->
+        <control type="panel" id="200">
+            <posx>50</posx>
+            <posy>115</posy>
+            <width>1820</width>
+            <height>740</height>
+            <orientation>vertical</orientation>
+            <onup>200</onup>
+            <ondown>200</ondown>
+
+            <itemlayout width="225" height="365">
+                <!-- Cover -->
+                <control type="image">
+                    <posx>12</posx>
+                    <posy>32</posy>
+                    <width>200</width>
+                    <height>300</height>
+                    <texture>$INFO[ListItem.Icon]</texture>
+                    <bordertexture border="5">special://home/addons/script.image.kodicsMAX/resources/media/border.png</bordertexture>
+                </control>
+
+                <!-- In-progress badge -->
+                <control type="image">
+                    <posx>177</posx>
+                    <posy>287</posy>
+                    <width>35</width>
+                    <height>35</height>
+                    <texture>special://home/addons/script.image.kodicsMAX/resources/media/readmark.png</texture>
+                    <visible>String.IsEqual(ListItem.Property(read_status),in_progress)</visible>
+                </control>
+
+                <!-- Complete badge -->
+                <control type="image">
+                    <posx>177</posx>
+                    <posy>287</posy>
+                    <width>35</width>
+                    <height>35</height>
+                    <texture>special://home/addons/script.image.kodicsMAX/resources/media/checkmark.png</texture>
+                    <visible>String.IsEqual(ListItem.Property(read_status),complete)</visible>
+                </control>
+            </itemlayout>
+
+            <focusedlayout width="225" height="365">
+                <!-- Focused cover, animated to 120% -->
+                <control type="image">
+                    <posx>12</posx>
+                    <posy>32</posy>
+                    <width>200</width>
+                    <height>300</height>
+                    <texture>$INFO[ListItem.Icon]</texture>
+                    <bordertexture border="5">special://home/addons/script.image.kodicsMAX/resources/media/border_focused.png</bordertexture>
+                    <animation effect="zoom" end="-8,2,240,360" time="120">focus</animation>
+                </control>
+
+                <!-- Focused in-progress badge -->
+                <control type="image">
+                    <posx>177</posx>
+                    <posy>287</posy>
+                    <width>35</width>
+                    <height>35</height>
+                    <texture>special://home/addons/script.image.kodicsMAX/resources/media/readmark.png</texture>
+                    <visible>String.IsEqual(ListItem.Property(read_status),in_progress)</visible>
+                    <animation effect="zoom" end="190,308,42,42" time="120">focus</animation>
+                </control>
+
+                <!-- Focused complete badge -->
+                <control type="image">
+                    <posx>177</posx>
+                    <posy>287</posy>
+                    <width>35</width>
+                    <height>35</height>
+                    <texture>special://home/addons/script.image.kodicsMAX/resources/media/checkmark.png</texture>
+                    <visible>String.IsEqual(ListItem.Property(read_status),complete)</visible>
+                    <animation effect="zoom" end="190,308,42,42" time="120">focus</animation>
+                </control>
+            </focusedlayout>
+        </control>
+
+        <!-- Bottom bar background -->
+        <control type="image">
+            <id>405</id>
+            <posx>0</posx>
+            <posy>880</posy>
+            <width>1920</width>
+            <height>200</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/flatbar.png</texture>
+            <aspectratio>stretch</aspectratio>
+        </control>
+
+        <!-- Focused item type icon -->
+        <control type="image">
+            <posx>190</posx>
+            <posy>935</posy>
+            <width>105</width>
+            <height>105</height>
+            <texture>$INFO[Container(200).ListItem(0).Property(type_icon)]</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+
+        <!-- Focused item full name -->
+        <control type="label">
+            <posx>350</posx>
+            <posy>890</posy>
+            <width>1370</width>
+            <height>200</height>
+            <font>font30</font>
+            <textcolor>white</textcolor>
+            <align>left</align>
+            <aligny>center</aligny>
+            <label>$INFO[Container(200).ListItem(0).Label]</label>
+            <scroll>true</scroll>
+        </control>
+    </controls>
+</window>
+

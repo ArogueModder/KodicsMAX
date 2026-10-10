@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="13001">
+    <defaultcontrol>101</defaultcontrol>
+    <coordinates>
+        <system>1</system>
+    </coordinates>
+    <controls>
+        <!-- Background -->
+        <control type="image">
+            <id>106</id>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1920</width>
+            <height>1080</height>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/background4.png</texture>
+        </control>
+
+        <!-- Title image -->
+        <control type="image">
+            <id>105</id>
+            <posx>460</posx>
+            <posy>-100</posy>
+            <width>1000</width>
+            <height>500</height>
+            <aspectratio>keep</aspectratio>
+            <texture>special://home/addons/script.image.kodicsMAX/resources/media/KodicsMAXtitle.png</texture>
+        </control>
+
+        <!-- Image buttons -->
+        <control type="group">
+            <posx>710</posx>
+            <posy>260</posy>
+
+            <control type="button">
+                <id>101</id>
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>500</width>
+                <height>125</height>
+                <label></label>
+                <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/Library.png</texturefocus>
+                <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/Library.png</texturenofocus>
+                <ondown>102</ondown>
+                <animation effect="zoom" start="100" end="120" time="150" center="auto">Focus</animation>
+                <animation effect="zoom" start="120" end="100" time="150" center="auto">Unfocus</animation>
+            </control>
+
+            <control type="button">
+                <id>102</id>
+                <posx>0</posx>
+                <posy>180</posy>
+                <width>500</width>
+                <height>125</height>
+                <label></label>
+                <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/loadcontent.png</texturefocus>
+                <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/loadcontent.png</texturenofocus>
+                <ondown>103</ondown>
+                <onup>101</onup>
+                <animation effect="zoom" start="100" end="120" time="150" center="auto">Focus</animation>
+                <animation effect="zoom" start="120" end="100" time="150" center="auto">Unfocus</animation>
+            </control>
+
+            <control type="button">
+                <id>103</id>
+                <posx>0</posx>
+                <posy>360</posy>
+                <width>500</width>
+                <height>125</height>
+                <label></label>
+                <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/settings.png</texturefocus>
+                <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/settings.png</texturenofocus>
+                <ondown>104</ondown>
+                <onup>102</onup>
+                <animation effect="zoom" start="100" end="120" time="150" center="auto">Focus</animation>
+                <animation effect="zoom" start="120" end="100" time="150" center="auto">Unfocus</animation>
+            </control>
+
+            <control type="button">
+                <id>104</id>
+                <posx>0</posx>
+                <posy>540</posy>
+                <width>500</width>
+                <height>125</height>
+                <label></label>
+                <texturefocus>special://home/addons/script.image.kodicsMAX/resources/media/exit.png</texturefocus>
+                <texturenofocus>special://home/addons/script.image.kodicsMAX/resources/media/exit.png</texturenofocus>
+                <onup>103</onup>
+                <animation effect="zoom" start="100" end="120" time="150" center="auto">Focus</animation>
+                <animation effect="zoom" start="120" end="100" time="150" center="auto">Unfocus</animation>
+            </control>
+        </control>
+    </controls>
+</window>
+
+
