@@ -109,8 +109,10 @@ To update KodicsMAX to a newer version:
 
 | Action | Control |
 |--------|---------|
-| Navigate to Next Page | Right Arrow (→) |
-| Navigate to Previous Page | Left Arrow (←) |
+| Navigate to Next Page | Right Arrow |
+| Navigate to Previous Page | Left Arrow |
+| Scroll Up | Up Arrow |
+| Scroll Down | Down Arrow |
 | Open Settings | Enter |
 | Return to Library | Back / Escape |
 
@@ -118,10 +120,12 @@ To update KodicsMAX to a newer version:
 
 | Action | Control |
 |--------|---------|
-| Navigate to Next Page | Right Arrow / Forward Button |
-| Navigate to Previous Page | Left Arrow / Back Button |
-| Open Settings | Select Button |
-| Return to Library | Back Button |
+| Navigate to Next Page | Right Arrow |
+| Navigate to Previous Page | Left Arrow |
+| Scroll Up | Up Arrow |
+| Scroll Down | Down Arrow |
+| Open Settings | Select |
+| Return to Library | Back |
 
 ## Library Controls
 
@@ -129,10 +133,12 @@ To update KodicsMAX to a newer version:
 
 | Action | Control |
 |--------|---------|
-| Navigate to Next Page | Right Arrow (→) |
-| Navigate to Previous Page | Left Arrow (←) |
-| Open Settings | Enter |
-| Return to Library | Back / Escape |
+| Navigate to Next Comic | Right Arrow |
+| Navigate to Previous Comic | Left Arrow |
+| Navigate to Above Comic | Up Arrow |
+| Navigate to Below Comic | Down Arrow |
+| Open Comic | Enter Key |
+| Return to Library | Esc Key |
 
 ### Remote Control
 
