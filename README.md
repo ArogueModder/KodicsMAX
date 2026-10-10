@@ -113,8 +113,8 @@ To update KodicsMAX to a newer version:
 | Navigate to Previous Page | Left Arrow |
 | Scroll Up | Up Arrow |
 | Scroll Down | Down Arrow |
-| Open Settings | Enter |
-| Return to Library | Back / Escape |
+| Open Settings | Enter Key |
+| Return to Library | Esc Key |
 
 ### Remote Control
 
