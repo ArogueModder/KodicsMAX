@@ -17,7 +17,7 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
 
 ## About
 
-**KodicsMAX** brings an enhanced comic reading experience to Kodi. Originally created by **typewriterMonkey** and significantly improved by **ArogueModder**, this addon provides support for digital comic collections.
+**KodicsMAX** brings an enhanced comic reading experience to Kodi. Originally created by **typewriterMonkey** and adopted by **ArogueModder**, this addon provides support for digital comic collections.
 
 | | |
 |---|---|
