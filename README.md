@@ -51,6 +51,8 @@ A powerful Kodi addon for reading comic books with native support for .CBR and .
 ![LibraryWindow](Screen2.png)
 
 <div align="left">
+note: Planet Comics are in the Public Domain
+
 
 ## Installation
 
